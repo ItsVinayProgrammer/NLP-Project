@@ -38,7 +38,7 @@ except Exception as e:
     exit(1)
 
 # Configure Gemini API
-api_key = "AIzaSyAYXEbKleFKVk52C7SyYQi-6jSZpZh0rr8"  # Replace with your valid Gemini API key
+api_key = "Replace with your valid Gemini API key"  # Replace with your valid Gemini API key
 os.environ['GOOGLE_API_KEY'] = api_key
 genai.configure(api_key=api_key)
 
@@ -600,3 +600,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
