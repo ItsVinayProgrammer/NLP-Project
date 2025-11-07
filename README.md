@@ -56,3 +56,40 @@ It uses speech recognition, natural language processing (NLP), and adaptive feed
 ```bash
 git clone https://github.com/yourusername/voice-english-tutor.git
 cd voice-english-tutor
+
+
+Step 2: Create a Virtual Environment
+python -m venv venv
+source venv/bin/activate      # For macOS/Linux
+venv\Scripts\activate         # For Windows
+
+Step 3: Install Dependencies
+pip install -r requirements.txt
+
+Step 4: Run the Application
+python main.py
+
+Step 5: Start Learning
+
+Once started, the system will test your microphone, ask for your learning level, and begin an interactive English conversation.
+
+
+Example Workflow
+
+System: “Hi there! Let’s test your microphone. Can you say your name?”
+
+User: “My name is Vinay.”
+
+System: “Great! Are you a beginner, intermediate, or advanced learner?”
+
+Based on the selected level, the system begins appropriate-level conversations and feedback.
+
+Future Enhancements
+
+Integration with a mobile application for better accessibility.
+
+Real-time grammar visualization and pronunciation heatmaps.
+
+Personalized lesson recommendations using machine learning.
+
+Cloud-based progress tracking and leaderboard features.
